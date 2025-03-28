@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/urlap.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Főoldal</a> |
+        <a href="./listak.html">Listák</a> |
+        <a href="./orarend.html">Órarend</a> |
+        <a href="./evszakok.html">Évszakok</a> |
+        <a href="./urlap.html">Űrlap</a> |
+        <a href="https://github.com/veressandor-kk/IKT" style="float: right;">GitHub main</a>
+    </nav>
+    
+    <h2>Pizza rendelés</h2>
+    <form>
+        <fieldset>
+            <legend>Személyes adatok</legend>
+            <label for="nev">Név: </label><input type="text" name="nev" id="nev" placeholder="Kiss István" required><br><br>
+            <label for="email">E-mail: </label><input type="email" name="email" id="email" placeholder="kiss.istvan01@gmail.com" required><br><br>
+            <label for="tel">Telefonszám: </label><input type="tel" name="tel" id="tel" placeholder="+36 00 111 1234" required><br><br>
+            <label for="cim">Telefonszám: </label><input type="text" name="cim" id="cim" placeholder="Csenyéte, Cigánytelep út 1." required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Rendelés</legend>
+            <p>Méret</p>
+            <input type="radio" name="meret" id="kicsi"><label for="kicsi">25 cm</label>
+            <input type="radio" name="meret" id="kozepes"><label for="kozepes">32 cm</label>
+            <input type="radio" name="meret" id="nagy"><label for="nagy">55 cm</label>
+        </fieldset>
+    </form>
+</body>
+</html>
